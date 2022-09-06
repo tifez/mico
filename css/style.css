@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+.info{
+    font-size: 12px;
+    margin: 15px 0 15px 300px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.top{
+    display: flex;
+    flex-basis: 15%;
+    gap: 5px;
+}
+.header{
+    background-color: #00c7aa;
+    color: #fff;
+    display: flex;
+    padding: 62px 0;
+}
+.header .logo{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+.header .logo h5{
+    color: black;
+    letter-spacing: -1px;
+    position: absolute;
+    top: 105px;
+    left: 65px;
+}
+.header nav{
+    margin-left: 390px;
+    margin-top: 9px;
+    font-size: 16px;
+}
+.header nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.header .register{
+    margin-left: 180px;
+}
+.header .register span{
+    margin-right: 60px;
+}
+.header .register span:last-child{
+    margin-right: 0;
+}
+
+/* section_1 */
+
+#sect_1{
+    position: relative;
+    box-shadow: #faf7f7 0 20px 25px;
+    padding-bottom: 3rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    display: flex; 
+    flex-direction: column;
+    flex-basis: 28%;
+    margin-top: 80px;
+}
+.left-text{
+    margin-top: 60px;
+}
+.left-text h1{
+    font-size: 3.5em;
+}
+.hos{
+     margin-bottom: 30px;
+}
+.color{
+    color: #00c7aa;
+}
+.left-text .note{
+    font-size: 14px;
+} 
+.btn{
+    margin-top: 30px;
+    background-color: #252525;
+    color: #fff;
+    width: 150px;
+    padding: 15px 20px;
+}
+.dot{
+    position: absolute;
+    top: 15rem;
+    left: 51rem;
+}
+.left-arrow{
+    position: absolute;
+    top: 48.8rem;
+    left: 73rem;
+    z-index: 1;
+}
+.left-arrow img{
+    margin-right: 0.2rem;
+}
+
+/* sect_2 */
+
+#shadow-back{
+    padding: 4rem 0 ;
+}
+.appointment{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 3rem;
+    box-shadow: #cfcbcb -1px -1px 25px;
+
+}
+.appointment span{
+    font-size: 1em;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+.rule{
+    width: 3.5em;
+    border-bottom: 0.15em solid #00c6a9;
+    margin-bottom: 2em;
+}
+.top{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.appointment input, .appointment select{
+    width: 20rem;
+    height: 2.4rem;
+    padding-left: 0.2rem;
+    color: #00c6a9;
+    border: 2px solid #00c6a9;
+    outline: none;
+}
+.curve{
+    border-radius: 7px;
+}
+
+/* about */
+#about{
+    box-sizing: border-box;
+}
+.md_col{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.about-text{
+    flex-basis: 30%;
+    text-align: left;
+    margin-top: 2rem;
+}
+.md_text_size{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-right: 0.5rem;
+}
+.about-text p{
+    margin-top: 2rem;
+    margin-bottom: 3.4rem;
+    line-height: 1.5rem;
+}
+
+/* Treatment */
+
+#treatment{
+    margin-top: 8rem;
+}
+.treatment-head,.doctor-text{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.box{
+    display: flex;
+    margin-left: 18rem;
+    justify-content: center;
+    gap: 1.5em;
+}
+.sm_box{
+    display: flex;
+    flex-direction: column;
+}
+.sm_content_size{
+    flex-basis: 15%;
+}
+.sm_md_content_size{
+    flex-basis: 17%;
+}
+.md_content_size{
+    flex-basis: 20%;
+}
+.treat-text h3{
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+}
+.treat-text span{
+    line-height: 1.5em;
+}
+.sm_lk_text{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 1.4em;
+}
+
+/* Our Doctors */
+
+#doctors{
+    background-color: #00c7aa;
+    padding: 4rem 0;
+}
+.space-top{
+    margin-top: 7rem;
+}
+.gap-size{
+    gap: 2rem;
+}
+.white{
+    color: #fff;
+}
+.md_sm_content_size{
+    flex-basis: 23%;
+}
+.profile{
+    background-color: #fff;
+}
+.doc-pic{
+    transform: translateY(-4rem);
+    margin: 0 0.5rem;
+}
+.doc-info{
+    text-align: center;
+}
+.social-media{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+/* testimonial */
+
+#testimonial{
+    position: relative;
+    padding: 5rem;
+}
+.testimonial_slide{
+    display: flex;
+    margin-top: 5rem;
+}
+.testimonial_slide_left{
+    transform: translateX(-4rem);
+}
+.testimonial_slide_right{
+    transform: translateX(28rem);
+}
+.testimonial-text{
+    position: absolute;
+    top: 11.6rem;
+    background-color: #fff;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    width: 49rem;
+    padding: 3em;
+    box-shadow: 0 0 2rem #dfdede;
+}
+.sm_bold{
+    font-weight: bold;
+}
+.def_inline{
+    display: flex;
+    margin-top: 0.3rem;
+    justify-content: space-between;
+}
+.def_inline p{
+    color: #cccdcd;
+}
+.test-text{
+    margin-top: 3em;
+    line-height: 1.5em;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    margin-left: -30rem;
+}
+
+/* contact */
+
+#contact{
+    padding: 5rem 0;
+}
+#contact h1{
+    margin-left: 22rem;
+    margin-bottom: 3rem;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact-form input{
+    height: 3rem;
+}
+.contact-form form input[type=submit] {
+    border: none;
+    width: 12rem;
+    padding: 0;
+    font-weight: 800;
+    color: #fff;
+    background-color: #00c6a9;
+}
+.contact-form input, .contact-form textarea{
+    border: #00c6a9 solid 1px;
+    outline: none;
+    color: #00c6a9;
+    padding-left: 1rem;
+    width: 28rem;
+}
+.contact-form textarea{
+    height: 5rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+/* footer */
+
+footer{
+    background-color: #252525;
+}
+.top-footer{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-bottom: 3rem;
+}
+.top-footer .logo{
+    margin-top: -0.08rem;
+}
+.top-footer input[type=email]{
+    margin-top: 5rem;
+    border: none;
+    width: 39rem;
+    background-color: #252525;
+    border-bottom: 1px solid #ebebeb;
+}
+.subscribe span{
+    margin-left: -5.9rem;
+}
+.middle-footer{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-bottom: 2rem;
+}
+.address, .useful, .lastest, .news{
+    gap: 2rem;
+}
+.flex{
+    display: flex;
+    gap: 0.5rem;
+}
+.md-dot{
+    background-color: #00c6a9;
+    width: 1rem;
+    height: 1rem;
+}
+.link a{
+   color: #fff;
+}
+.bottom-footer{
+    display: flex;
+    padding: 2rem 0;
+    justify-content: center;
+}
+.copy-right{
+    opacity: 0.7;
+}
